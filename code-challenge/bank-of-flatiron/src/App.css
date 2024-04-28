@@ -1,0 +1,71 @@
+#title {
+  background-color: rgba(1, 1, 197, 0.808);
+  color: white;
+  border-radius: 4px;
+  text-align: center;
+  margin: 10px;
+  padding: 1vh;  
+}
+
+#Search {
+  margin: 2px;
+  position: relative;
+  display: inline-block;
+  width: 90%;
+}
+
+input {
+  width: 99%;
+  padding: 9px; 
+  border-radius: 4px; 
+}
+
+button.search-button {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: auto; 
+  height: auto; 
+  border: none;
+  background-color: white; 
+  border-radius: 50%; 
+  cursor: pointer;
+}
+
+#TransanctionForm {
+  display: flex;
+  border: 1px solid #ccc;
+  padding-top: 10px;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+
+
+.submission {
+  border: 1px solid #ccc;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#container  {
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+#table {
+  width: 90%;
+  border-collapse: collapse;
+}
+
+#table th,
+#table  td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+#table th {
+  background-color: #f2f2f2;
+}
